@@ -13,3 +13,11 @@ In the `/utilities` directory, you can run the command: `make`.
 ## Character Movement
 
 In the `/sandbox/character_movement` directory, you can run the command: `make`
+
+This shows the character `@` moving leaving a trail of `#` characters in spaces that were visited.
+
+## Map Generation and Traversal
+
+In the `/sandbox/map` directory, you can run the command: `make`
+
+This shows the character `@` moving throughout the map and the viewport staying focused on the main character. As the character moves it leaves blank characters in spaces that were visted.
