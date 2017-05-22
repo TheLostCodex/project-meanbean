@@ -12,6 +12,9 @@ You can first run the compatibility test to see if your terminal supports ncurse
 
 In the `/utilities` directory, you can run the command: `make`.
 
+Your screen should look the like the following:
+![screen shot 2017-05-21 at 5 03 16 pm 2](https://cloud.githubusercontent.com/assets/16892494/26291058/72857d4e-3e47-11e7-9d9d-6cbe7c2fd149.png)
+
 # Sandbox
 
 ## Character Movement
