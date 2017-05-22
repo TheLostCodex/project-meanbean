@@ -2,6 +2,10 @@
 
 This repository contains our working code for "Project Meanbean". This is meant to be a naive implementation of a simple game using the NCurses library to help implement a simple GUI that runs in a terminal environment.
 
+To try the game either download the `.zip` file or run `git clone git@github.com:TheLostCodex/project-meanbean.git` in the terminal in order to clone the repository.
+
+You can first run the compatibility test to see if your terminal supports ncurses.
+
 # Utilities
 
 ## Test Compatibility
