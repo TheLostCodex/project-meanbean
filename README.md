@@ -50,3 +50,13 @@ You can currently only walk on grass.
 Finally, based on the key that you press on the welcome screen, a random map is generated using the key input as a seed value. If your character spawns inside a mountain, you will have to press `Q` to restart and try a different seed.
 
 ![screen shot 2017-05-21 at 5 07 32 pm 2](https://cloud.githubusercontent.com/assets/16892494/26291140/00f8263a-3e48-11e7-914f-5fea4d023d56.png)
+
+## Monster Chase
+
+In the `sandbox/monster_chase` directory, you can run the command: `make`
+
+This shows the character `@` and the monster `$` in a colored map with the viewpoint staying focuses on the main character. As the character moves, the monster attempts to chase the main character. The monster moves using an algorithm attempting to minimize the Euclidean distance (distance formula) between the monster and the character. When the monster catches the player, a game over screen is displayed.
+
+Random generation of the map has been disabled for this module because sometimes the monster would spawn in an unreachable location (i.e. in a mountain). The starting location of the monster has been hard-coded.
+
+![screen shot 2017-05-23 at 11 39 45 am 2](https://cloud.githubusercontent.com/assets/16892494/26377578/917251e4-3fac-11e7-92e1-9b4ad153b234.png)
