@@ -1,4 +1,4 @@
-## Project Meanbean
+# Project Meanbean
 
 This repository contains our working code for "Project Meanbean". This is meant to be a naive implementation of a simple game using the NCurses library to help implement a simple GUI that runs in a terminal environment.
 
@@ -6,18 +6,31 @@ To try the game either download the `.zip` file or run `git clone git@github.com
 
 You can first run the compatibility test to see if your terminal supports ncurses.
 
-# Utilities
+## v0.0.1
 
-## Test Compatibility
+Initial attempt at developing a game. 
+
+5/24/17 - Implemented a start screen and game over screen in ASCII artwork
+
+Game start screen:
+![screen shot 2017-05-24 at 2 55 59 am 2](https://cloud.githubusercontent.com/assets/16892494/26404162/9645985e-402c-11e7-9ee4-bdc1423b5678.png)
+
+Game over screen:
+![screen shot 2017-05-24 at 2 56 59 am 2](https://cloud.githubusercontent.com/assets/16892494/26404190/ac383914-402c-11e7-927c-81fdfe419171.png)
+
+
+## Utilities
+
+### Test Compatibility
 
 In the `/utilities` directory, you can run the command: `make`.
 
 Your screen should look the like the following:
 ![screen shot 2017-05-21 at 5 03 16 pm 2](https://cloud.githubusercontent.com/assets/16892494/26291058/72857d4e-3e47-11e7-9d9d-6cbe7c2fd149.png)
 
-# Sandbox
+## Sandbox
 
-## Character Movement
+### Character Movement
 
 In the `/sandbox/character_movement` directory, you can run the command: `make`
 
@@ -25,7 +38,7 @@ This shows the character `@` moving leaving a trail of `#` characters in spaces 
 
 ![screen shot 2017-05-21 at 5 05 44 pm 2](https://cloud.githubusercontent.com/assets/16892494/26291105/c2fc2be2-3e47-11e7-8f42-db1e6eb2f50f.png)
 
-## Map Testing and Traversal
+### Map Testing and Traversal
 
 In the `/sandbox/map` directory, you can run the command: `make`
 
@@ -34,7 +47,7 @@ This shows the character `@` moving throughout the map and the viewport staying 
 ![screen shot 2017-05-21 at 5 06 45 pm 2](https://cloud.githubusercontent.com/assets/16892494/26291121/e528e6b0-3e47-11e7-918c-563d8ed1b8fe.png)
 
 
-## Random Map Generation, Map Coloring, and Collision Detection
+### Random Map Generation, Map Coloring, and Collision Detection
 
 In the `/sandbox/map_generation` directory, you can run the command: `make`
 
@@ -51,7 +64,7 @@ Finally, based on the key that you press on the welcome screen, a random map is 
 
 ![screen shot 2017-05-21 at 5 07 32 pm 2](https://cloud.githubusercontent.com/assets/16892494/26291140/00f8263a-3e48-11e7-914f-5fea4d023d56.png)
 
-## Monster Chase
+### Monster Chase
 
 In the `sandbox/monster_chase` directory, you can run the command: `make`
 
